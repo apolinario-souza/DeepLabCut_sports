@@ -2,3 +2,5 @@
 
 
 [Tutorial video 1](https://youtu.be/7Prv_8zBTi4)
+
+[Script 1](https://github.com/apolinario-souza/DeepLabCut_sports/blob/main/script_1.py)
