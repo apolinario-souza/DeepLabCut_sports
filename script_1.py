@@ -2,7 +2,7 @@
 """
 Created on Tue Feb 21 09:04:12 2023
 
-@author: edfte
+@author: Tércio Apolinário-Souza. edf.tercio@gmail.com
 """
 
 import deeplabcut
