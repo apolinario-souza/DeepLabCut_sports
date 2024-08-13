@@ -1,6 +1,9 @@
 # Application of the DeepLabCut Toolbox in Sports: A Deep Learning Approach
 ## This repository contains the online materials for the article
 
+![Descrição do GIF](caminho/para/seu/gif.gif)
+
+
 
 
 [Original video](https://github.com/apolinario-souza/DeepLabCut_sports/blob/main/hand.mp4)
