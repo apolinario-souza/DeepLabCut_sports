@@ -15,6 +15,8 @@ Apolinário-Souza, T., Bedo, B. L. S., Leonardi, T. J. Application of the DeepLa
 
 [Script 1](https://github.com/apolinario-souza/DeepLabCut_sports/blob/main/script_1.py)
 
+How to Install DeepLabCut
+
 [Script 2](https://github.com/apolinario-souza/DeepLabCut_sports/blob/main/script_2.ipynb)
 
 [Script 3](https://github.com/apolinario-souza/DeepLabCut_sports/blob/main/script_3.ipynb)
