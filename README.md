@@ -11,7 +11,7 @@ Apolinário-Souza, T., Bedo, B. L. S., Leonardi, T. J. Application of the DeepLa
 
 [Original video](https://github.com/apolinario-souza/DeepLabCut_sports/blob/main/hand.mp4)
 
-Video with DeepLabCut
+[Video with DeepLabCut](https://github.com/apolinario-souza/DeepLabCut_sports/blob/main/Game-hand-2024-08-11/videos/handDLC_resnet50_GameAug11shuffle1_5000_labeled.mp4)
 
 [Tutorial video 1](https://youtu.be/7Prv_8zBTi4)
 
