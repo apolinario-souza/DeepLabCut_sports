@@ -1,0 +1,124 @@
+2024-08-11 15:14:16 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8]],
+ 'all_joints_names': ['green',
+                      'yellow',
+                      'black',
+                      'blue',
+                      'ball',
+                      'topLeft',
+                      'topRight',
+                      'bottomLeft',
+                      'bottomRight'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'contrast': {'clahe': True,
+              'claheratio': 0.1,
+              'histeq': True,
+              'histeqratio': 0.1},
+ 'convolution': {'edge': False,
+                 'emboss': {'alpha': [0.0, 1.0], 'strength': [0.5, 1.5]},
+                 'embossratio': 0.1,
+                 'sharpen': False,
+                 'sharpenratio': 0.3},
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_GameAug11/Game_hand95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/usr/local/lib/python3.10/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_GameAug11/Documentation_data-Game_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 9,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'project_path': '/content/drive/MyDrive/Game-hand-2024-08-11',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/content/drive/MyDrive/Game-hand-2024-08-11/dlc-models/iteration-0/GameAug11-trainset95shuffle1/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2024-08-11 15:21:54 iteration: 100 loss: 0.0724 lr: 0.005
+2024-08-11 15:28:33 iteration: 200 loss: 0.0275 lr: 0.005
+2024-08-11 15:34:51 iteration: 300 loss: 0.0233 lr: 0.005
+2024-08-11 15:41:14 iteration: 400 loss: 0.0203 lr: 0.005
+2024-08-11 15:47:38 iteration: 500 loss: 0.0191 lr: 0.005
+2024-08-11 15:54:22 iteration: 600 loss: 0.0172 lr: 0.005
+2024-08-11 16:00:59 iteration: 700 loss: 0.0156 lr: 0.005
+2024-08-11 16:07:29 iteration: 800 loss: 0.0145 lr: 0.005
+2024-08-11 16:13:56 iteration: 900 loss: 0.0137 lr: 0.005
+2024-08-11 16:20:44 iteration: 1000 loss: 0.0133 lr: 0.005
+2024-08-11 16:27:49 iteration: 1100 loss: 0.0124 lr: 0.005
+2024-08-11 16:34:14 iteration: 1200 loss: 0.0119 lr: 0.005
+2024-08-11 16:40:43 iteration: 1300 loss: 0.0116 lr: 0.005
+2024-08-11 16:46:42 iteration: 1400 loss: 0.0111 lr: 0.005
+2024-08-11 16:53:07 iteration: 1500 loss: 0.0106 lr: 0.005
+2024-08-11 16:59:48 iteration: 1600 loss: 0.0103 lr: 0.005
+2024-08-11 17:06:20 iteration: 1700 loss: 0.0097 lr: 0.005
+2024-08-11 17:12:42 iteration: 1800 loss: 0.0100 lr: 0.005
+2024-08-11 17:19:03 iteration: 1900 loss: 0.0090 lr: 0.005
+2024-08-11 17:25:57 iteration: 2000 loss: 0.0087 lr: 0.005
+2024-08-11 17:32:45 iteration: 2100 loss: 0.0086 lr: 0.005
+2024-08-11 17:39:27 iteration: 2200 loss: 0.0086 lr: 0.005
+2024-08-11 17:45:42 iteration: 2300 loss: 0.0081 lr: 0.005
+2024-08-11 17:52:10 iteration: 2400 loss: 0.0080 lr: 0.005
+2024-08-11 17:58:24 iteration: 2500 loss: 0.0079 lr: 0.005
+2024-08-11 18:05:01 iteration: 2600 loss: 0.0078 lr: 0.005
+2024-08-11 18:10:55 iteration: 2700 loss: 0.0074 lr: 0.005
+2024-08-11 18:17:29 iteration: 2800 loss: 0.0072 lr: 0.005
+2024-08-11 18:24:00 iteration: 2900 loss: 0.0071 lr: 0.005
+2024-08-11 18:30:23 iteration: 3000 loss: 0.0072 lr: 0.005
+2024-08-11 18:36:50 iteration: 3100 loss: 0.0067 lr: 0.005
+2024-08-11 18:43:11 iteration: 3200 loss: 0.0068 lr: 0.005
+2024-08-11 18:49:22 iteration: 3300 loss: 0.0068 lr: 0.005
+2024-08-11 18:55:30 iteration: 3400 loss: 0.0061 lr: 0.005
+2024-08-11 19:02:00 iteration: 3500 loss: 0.0063 lr: 0.005
+2024-08-11 19:07:53 iteration: 3600 loss: 0.0062 lr: 0.005
+2024-08-11 19:14:19 iteration: 3700 loss: 0.0061 lr: 0.005
+2024-08-11 19:20:54 iteration: 3800 loss: 0.0062 lr: 0.005
+2024-08-11 19:27:34 iteration: 3900 loss: 0.0061 lr: 0.005
+2024-08-11 19:33:46 iteration: 4000 loss: 0.0060 lr: 0.005
+2024-08-11 19:39:42 iteration: 4100 loss: 0.0059 lr: 0.005
+2024-08-11 19:47:12 iteration: 4200 loss: 0.0058 lr: 0.005
+2024-08-11 19:53:50 iteration: 4300 loss: 0.0056 lr: 0.005
+2024-08-11 20:00:19 iteration: 4400 loss: 0.0058 lr: 0.005
+2024-08-11 20:07:14 iteration: 4500 loss: 0.0056 lr: 0.005
+2024-08-11 20:13:34 iteration: 4600 loss: 0.0055 lr: 0.005
+2024-08-11 20:19:57 iteration: 4700 loss: 0.0052 lr: 0.005
+2024-08-11 20:26:08 iteration: 4800 loss: 0.0052 lr: 0.005
+2024-08-11 20:33:27 iteration: 4900 loss: 0.0052 lr: 0.005
+2024-08-11 20:40:20 iteration: 5000 loss: 0.0052 lr: 0.005
+2024-08-11 20:47:01 iteration: 5100 loss: 0.0048 lr: 0.005
