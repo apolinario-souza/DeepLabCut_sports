@@ -2,11 +2,13 @@
 
 Apolinário-Souza, T., Bedo, B. L. S., Leonardi, T. J. Application of the DeepLabCut toolbox in sports: a Deep Learning approach. 2024
 
+[Preprint](https://www.researchgate.net/publication/388957989_Markerless_Tracking_in_Sports_with_DeepLabCut_Techniques_and_Applications)
+
 
 
 ![Descrição do GIF](https://github.com/apolinario-souza/DeepLabCut_sports/blob/main/gif_video.gif)
 
-![Preprint](https://www.researchgate.net/publication/388957989_Markerless_Tracking_in_Sports_with_DeepLabCut_Techniques_and_Applications)
+
 
 
 ## This repository contains the online materials for the article
